@@ -11,7 +11,7 @@ function App() {
     useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 20);
+    }, 10);
   }, []);
 
   const [characters, updateCharacters] = useState(GalleryImages);
