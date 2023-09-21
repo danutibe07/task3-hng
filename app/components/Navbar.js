@@ -3,7 +3,6 @@ import { UserButton, auth } from '@clerk/nextjs';
 
 const NavBar = async ({ username }) => {
   const { userId } = auth();
-
   return (
     <nav className='flex items-center justify-between px-6 py-4 mb-5 bg-purple-600'>
       <div className='flex items-center'>
