@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+.title{
+    margin: 30px;
+}
+.title h2 {
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+.title h3 {
+  font-size: 1.6rem;
+  font-family: 'Croissant One', sans-serif; 
+  text-align: center;
+}
